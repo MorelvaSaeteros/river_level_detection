@@ -10,9 +10,13 @@ Se tiene un script para el entrenamiento del modelo CNN para el reconocimiento d
 
 # test_model.py 
 Este script se utilizó a modo de test  los caracteres detectados tanto con MNIST como Pytesseract, aunque todo está mejor organizado en filter.py 
+
+
 ´´´
 Los siguientes scripts contienen la técnica de detección de bordes, que se pueda transferir a un extractor de características YOLOv3 con el propósito de detectar el borde de un río.
 ´´´
+
+
 # sample.py
 El script retorna un video completo en archivo .mp4 del cúmulo de videos a ser tratados (toma únicamente muestras específicas de información), es decir, tomas de interés estáticas con su respectivo .csv
 
